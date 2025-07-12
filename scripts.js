@@ -90,3 +90,9 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
   });
 });
+<select id="payment" required>
+  <option value="">Select Payment Method</option>
+  <option value="JazzCash">JazzCash</option>
+  <option value="EasyPaisa">EasyPaisa</option>
+  <option value="Meezan Bank">Meezan Bank</option>
+</select>
